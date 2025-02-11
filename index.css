@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+   background-color: wheat;
+   align-items: center;
+   height: 100vh;
+
+}
+#calci
+{
+    background-color: grey;
+    max-width: 500px;
+    border-radius: 5px;
+   
+}
+#display
+{
+    width: 460px;
+    padding: 20px;
+    background-color:cadetblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 3rem;
+}
+button
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: cadetblue;
+}
+#keys
+{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.op
+{
+    background-color: coral;
+}
+.op:hover
+{
+    background-color: coral;
+    border: white;
+}
+
+
